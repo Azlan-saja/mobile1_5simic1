@@ -29,7 +29,40 @@ Nilai >= 60	Yudisium C	=> ELSE IF
 Nilai <= 59	Yudisium D	=> ELSE
 
 
+Cara Buat Project Baru Flutter
+===========================
+1. Buka VS Code
+2. Pilih menu View => Command Palette
+3. Ketikkan >Flutter dan pilih New project
+4. Pilih Aplication
+5. Cari lokasi simpan dan pilih folder yang baru
+6. Ketikkan nama projectnya, contoh mobile1_5simic1
+7. Tekan ENTER
 
+Cara Menjalankan project flutter
+============================
+1. Pilih menu View => Command Palette
+2. Ketikkan >Flutter Select Device
+3. Pilih Chrome
+4. Buka file lib/main.dart dan pilih menu RUN > Start Debugging
+
+Widget (Tree)
+============================
+NamaWidget(
+	properties1: value1,
+	properties2: value2,
+)
+--------------------------------------
+Header(
+	warna: merah,
+	child: NamaWidget(
+		properties1: value1,
+		properties2: value2,
+	),
+)
+
+=====================================
+Material()
 
 
 
