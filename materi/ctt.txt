@@ -64,5 +64,23 @@ Header(
 =====================================
 Material()
 
+=====================================
+Clone project dari github
+1. akses s.id/5simic1_2024
+2. Klik CODE => HTTPS (Copy URL)
+	=> https://github.com/Azlan-saja/mobile1_5simic1.git
+3. Buat folder baru dengan nama clone di local disk D
+4. buka terminal/CMD dan ketikkan
+	d:					cd\
+	cd clone				cd clone
+5. Masih di terminal. Clone project dengan cara ketikkan 
+	git clone https://github.com/Azlan-saja/mobile1_5simic1.git
+6. Masih di terminal. Masukkan ke project dengan cara ketikkan
+	cd mobile1_5simic1
+7. Masih di terminal. Perbarui package dengan cara ketikkan
+	dart pub get
+8. Masih di terminal. Buka menggunakan VS Code dengan cara ketikkan
+	code .
 
+	
 
